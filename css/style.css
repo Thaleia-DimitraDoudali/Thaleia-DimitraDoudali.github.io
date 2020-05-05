@@ -33,7 +33,7 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(../images/banner.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -41,7 +41,7 @@ body a:hover{
 }
 .banner-info{
 	background: url(../images/dott.png)repeat 0px 0px;
-	padding: 4em 0;
+	padding: 8em 0;
 }
 .header-left img {
     width: 100%;
@@ -57,13 +57,13 @@ body a:hover{
 }
 .header-right h2 {
     font-size: 1.2em;
-    color: #000;
-    background: #f71188;
+    color: #fff;
+    background: #d2f1f2;
     display: inline-block;
     padding: .5em 1.5em;
     position: relative;
 }
-.header-right h2:before {
+/*.header-right h2:before {
     width: 0;
     height: 0;
     position: absolute;
@@ -73,7 +73,7 @@ body a:hover{
     border-style: solid;
     border-width: 10px 10px 0 10px;
     border-color: #F3E000 transparent transparent transparent;
-}
+}*/
 .header-right h6 {
     font-size: 1.2em;
     color: #C7C7C7;
@@ -139,7 +139,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 	background: #d2f1f2;
 }
 h3.title {
-    font-size: 2.8em;
+    font-size: 3.6em;
     text-align: center;
     color: #008B8B;
     border-bottom: 4px double #008B8B;
@@ -529,7 +529,7 @@ h2.resp-accordion {
     color: #fff;
 }
 .contact p a:hover{
-    color: #f71188;
+    color: #9099a0;
 }
 .address-left:after {
     content: '';
@@ -615,7 +615,7 @@ h2.resp-accordion {
 	font-size: 1.1em;
 }
 .footer p a{
-    color: #f71188;
+    color: #9099a0;
 }
 .footer p a:hover{
     color: #fff;
@@ -710,6 +710,7 @@ h3.title {
 }
 .header-right h2 {
     font-size: 1em;
+    color: #fff;
 }
 .header-right h1 {
     font-size: 2em;
@@ -837,6 +838,7 @@ ul.nav.navbar li a {
 @media(max-width:640px){
 .header-right h2 {
     font-size: 0.9em;
+    color: #fff;
 }
 .header-right h2:before {
     bottom: -7px;
