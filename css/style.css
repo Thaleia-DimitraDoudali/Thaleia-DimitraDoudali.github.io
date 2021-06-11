@@ -62,6 +62,8 @@ body a:hover{
     display: inline-block;
     padding: 0.5em 1.5em;
     position: relative;
+    border-style: solid;
+    border-color: black;
 }
 /*.header-right h2:before {
     width: 0;
@@ -120,7 +122,7 @@ ul.nav.navbar {
 }
 ul.nav.navbar li a {
     color: #fff;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1em;
     font-size: 1.5em;
     font-family: 'Overlock', cursive;
 }
@@ -695,7 +697,7 @@ h3.title {
     font-size: 2.3em;
 }
 }
-@media(max-width:491px){
+@media(max-width:296px){
 .banner-info {
     padding: 3.5em 0;
 }
@@ -725,7 +727,7 @@ ul.address li ul.address-text li {
     font-size: 1.1em;
 }
 ul.nav.navbar li a {
-    padding: 1em 1.5em;
+    padding: 1em 1em;
 }
 h3.title {
     font-size: 3.5em;
@@ -814,12 +816,12 @@ h3.title {
     font-size: 0.9em;
 }
 }
-@media(max-width:768px){
+@media(max-width:368px){
 .banner-info {
     padding: 3em 0;
 }
 }
-@media(max-width:767px){
+@media(max-width:800px){
 .navbar-toggle {
     float: none;
     width: 100%;
