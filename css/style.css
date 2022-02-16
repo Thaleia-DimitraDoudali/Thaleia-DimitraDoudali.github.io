@@ -182,7 +182,7 @@ p{
     background: #d2f1f2;
 }
 .work-left {
-    text-align: right;
+    text-align: center;
     padding: 3em 5em 0 0;
 }
 .work-right {
@@ -735,13 +735,11 @@ h3.title {
 }
 .about-left {
     float: left;
-    width: 65%;
-	padding-left: 0;
+    width: 20%;
 }
 .about-right {
-    float: right;
-    width: 35%;
-    padding: 0;
+float: right;
+    width: 80%;
 }
 .about-right ul {
     border-width: 3px;
@@ -868,14 +866,11 @@ h3.title {
     margin-bottom: 0.5em;
 }
 .about-left {
-    float: none;
-    width: 100%;
+    float: left;
     padding: 0;
 }
 .about-right {
-    float: none;
-    width: 100%;
-    margin-top: 1em;
+    width: 70%;
 }
 .work-right.work-right2 {
     min-height: 235px;
@@ -1105,5 +1100,14 @@ h3.title {
     font-size: 0.9em;
 }
 
+.pubs {
+    float: left;
+}
+.pubs.left.col {
+    width: 10%
+}
+.pubs.right.col {
+    width:90%
+}
 }
 /*--//responsive-design---*/
