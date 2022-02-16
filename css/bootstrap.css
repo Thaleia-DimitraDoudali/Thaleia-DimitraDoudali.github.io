@@ -1582,19 +1582,19 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .container {
-    width: 1500px;
+    width: 1300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1300px) {
   .container {
-    width: 1500px;
+    width: 1300px;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .container {
-    width: 1570px;
+    width: 1300px;
   }
 }
 .container-fluid {
