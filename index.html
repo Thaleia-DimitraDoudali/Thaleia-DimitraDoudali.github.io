@@ -442,12 +442,13 @@ At Georgia Tech, my research introduced system-level support for the resource ma
 			</div></div>			<div class="clearfix"> </div>
 </div></div>
 
-	<div id="teaching" class="about">
+	<div id="teaching">
 		<div class="container">
 			<h3 class="title"> Teaching</h3>
 			<div class="col-md-12"><div class="col-lg-offset-1">
 				<!--2023-->
-				<p><span class="iconify-inline" data-icon="iwwa:year" style="color: black;"></span><b> Spring 2023</b></p>
+
+				<p id="mlarchsys-seminar-spring23"><span class="iconify-inline" data-icon="iwwa:year" style="color: black;"></span><b> Spring 2023</b></p>
 
 				<p><span style="color:#008b8b;"><b>MLArchSys Seminar Series.</b></span><br/>
 					At the MUSS and EMSE Master Programs and the DSSC Doctoral Program of the School of Computer Science at Universidad Politécnica de Madrid.<br/>
@@ -805,6 +806,16 @@ At Georgia Tech, my research introduced system-level support for the resource ma
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			
 		});
+		$(document).ready(function () {
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && isChrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    });
 	</script>
 	<!--//smooth-scrolling-of-move-up-->
 	<!-- Bootstrap core JavaScript
